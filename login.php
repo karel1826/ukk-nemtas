@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+// Check if the user is already logged in, redirect to index.php
+if (isset($_SESSION['userid'])) {
+    header('Location: index.php');
+    exit();
+}
+?>
+
 </html>
 
 <!DOCTYPE html>

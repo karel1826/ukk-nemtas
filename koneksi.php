@@ -1,3 +1,3 @@
 <?php
-    $conn=mysqli_connect("localhost","root","","galeri2");
+    $conn=mysqli_connect("localhost","root","","webgaleri");
 ?>
