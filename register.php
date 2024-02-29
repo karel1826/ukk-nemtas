@@ -21,7 +21,7 @@
                         <form action="proses_register.php" method="post">
                             <label class="form-label">Username</label>
                             <input type="text" name="username" class="form-control" required>
-                            <label class="form-label">Password</label>
+                            <label class="form-label">kata sandi</label>
                             <input type="password" name="password" class="form-control" required>
                             <label class="form-label">Email</label>
                             <input type="email" name="email" class="form-control" required>
